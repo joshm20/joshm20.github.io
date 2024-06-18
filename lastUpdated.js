@@ -20,5 +20,5 @@ xhttp.onreadystatechange = function () {
         });
     }
 };
-xhttp.open("GET", "https://api.github.com/joshm20/repos", true);
+xhttp.open("GET", "https://api.github.com/users/joshm20/repos", true);
 xhttp.send();
