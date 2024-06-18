@@ -1,0 +1,70 @@
+body {
+  background: #eaeaeb;
+  margin: 0;
+  font: verdana;
+  /* Maybe add
+  background-image: url("<insert link here>");
+    baground-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;*/
+}
+
+header {
+  padding: 0.5em;
+  display: block;
+  background: #393e41;
+  color: gainsboro;
+  text-align: center;
+  font-weight: bold;
+}
+
+header a {
+  color: gainsboro;
+}
+
+header a:hover {
+  color: rgb(168, 168, 168);
+}
+
+article {
+  line-height: 1.5em;
+  font-size: 1.25em;
+}
+
+article p {
+  max-width: 47em;
+  margin: 3.9em;
+}
+
+article h1 {
+  border-left: solid 1.9em #393e41;
+  padding: 0.9em;
+}
+
+article a {
+  text-decoration: none;
+  margin: 2.9em;
+  padding: 0.1em;
+  border-left: solid 1em #393e41;
+  color: black;
+}
+
+article a:hover {
+  color: #888889;
+}
+
+footer {
+  background: #393e41;
+  color: gainsboro;
+  bottom: 0;
+  padding: 1em 3.75em 1em 1em;
+}
+
+footer a {
+  color: gainsboro;
+}
+
+footer a:hover {
+  color: rgb(168, 168, 168);
+}
