@@ -13,9 +13,9 @@ xhttp.onreadystatechange = function () {
             if (repo.name == desiredRepo) {
                 var lastUpdated = new Date(repo.updated_at);
                 var day = lastUpdated.getUTCDate();
-                var month = lastUpdated.getUTCMonth();
+                var month = lastUpdated.getUTCMonth() + 1;
                 var year = lastUpdated.getUTCFullYear();
-                $(dateTagClass).text(`Last updated: ${year}-${month}-${day}`);
+                $(dateTagClass).text(`Last updated: ${month}-${day}-${year}`);
             }
         });
     }
