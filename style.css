@@ -34,12 +34,17 @@ article {
 
 article p {
   max-width: 47em;
-  margin: 3.9em;
+  margin-left: 3.9em;
 }
 
 article h1 {
   border-left: solid 1.9em #393e41;
   padding: 0.9em;
+}
+
+article h3 {
+  padding: 0em;
+  margin-left: 2.9em;
 }
 
 article a {
