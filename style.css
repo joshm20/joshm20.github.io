@@ -47,7 +47,7 @@ article h3 {
   margin-left: 2.9em;
 }
 
-article a {
+.pagelink {
   text-decoration: none;
   margin: 2.9em;
   padding: 0.1em;
