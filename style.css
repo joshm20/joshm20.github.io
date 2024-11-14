@@ -2,6 +2,9 @@ body {
   background: #eaeaeb;
   margin: 0;
   font: verdana;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   /* Maybe add
   background-image: url("<insert link here>");
     baground-attachment: fixed;
@@ -62,6 +65,7 @@ article a:hover {
 footer {
   background: #393e41;
   color: gainsboro;
+  margin-top: auto;
   bottom: 0;
   padding: 1em 3.75em 1em 1em;
 }
