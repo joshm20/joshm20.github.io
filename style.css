@@ -14,12 +14,19 @@ background-size: cover;*/
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   padding: 0.5em;
-  display: block;
   background: #393e41;
   color: gainsboro;
   text-align: center;
   font-weight: bold;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 
 header a {
@@ -30,43 +37,40 @@ header a:hover {
   color: rgb(168, 168, 168);
 }
 
-article {
+article p {
+  width: 50%;
+  text-align: justify;
   line-height: 1.5em;
   font-size: 1.25em;
-}
-
-article p {
-  max-width: 47em;
-  margin-left: 3.9em;
-}
-
-article h1 {
-  border-left: solid 1.9em #393e41;
-  padding: 0.9em;
-}
-
-article h3 {
-  padding: 0em;
-  margin-left: 2.9em;
-}
-
-.pagelink {
-  text-decoration: none;
-  margin: 2.9em;
-  padding: 0.1em;
-  border-left: solid 1em #393e41;
-  color: black;
+  margin: 0 auto;
 }
 
 article a:hover {
   color: #888889;
 }
 
+.pagelinks > a {
+  text-decoration: none;
+  color: black;
+
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+main {
+  padding: 2vh 2vw;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+
 footer {
+  margin-top: auto;
   background: #393e41;
   color: gainsboro;
-  margin-top: auto;
   bottom: 0;
+  width: 100vw;
   padding: 1em 3.75em 1em 1em;
 }
 
@@ -76,4 +80,14 @@ footer a {
 
 footer a:hover {
   color: rgb(168, 168, 168);
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+img,
+video {
+  border: 1px solid black;
 }

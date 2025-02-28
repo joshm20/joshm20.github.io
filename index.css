@@ -1,0 +1,20 @@
+.pagelinks > a {
+  font-size: 1.2em;
+}
+
+.pagelinks > a:hover {
+  background-color: #eaeaeb;
+}
+
+.pagelinks {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#pagesFB {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 2vw;
+}
