@@ -1,5 +1,12 @@
 .pagelinks > a {
   font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgrey;
 }
 
 .pagelinks > a:hover {
