@@ -1,132 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Josh Makela</title>
-    <script src="./lastUpdated.js"></script>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <header>
-      <a
-        href="index.html"
-        style="text-decoration: none; color: gainsboro; font-size: 48px"
-        >Josh Makela</a
-      >
-      <br />
-      <div>
-        <a
-          href="https://github.com/joshm20"
-          class="fa fa-github"
-          style="font-size: 45px; text-decoration: none"
-        ></a>
-        &emsp;
-        <a
-          href="https://www.linkedin.com/in/josh-makela/"
-          class="fa fa-linkedin"
-          style="font-size: 45px; text-decoration: none"
-        ></a>
+<head>
+  <title>Josh Makela</title>
+  <script src="./lastUpdated.js"></script>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" style="text-decoration: none; color: gainsboro; font-size: 48px">Josh Makela</a>
+    <br />
+    <div>
+      <a href="https://github.com/joshm20" class="fa fa-github" style="font-size: 45px; text-decoration: none"></a>
+      &emsp;
+      <a href="https://www.linkedin.com/in/josh-makela/" class="fa fa-linkedin"
+        style="font-size: 45px; text-decoration: none"></a>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <h1>Projects</h1>
+      <h3>URECord (MySQL, Python/Flask/Jinja, HTML/CSS)</h3>
+      <p>
+        In a databases class, I worked in a team of 4 to develop a database
+        system. Our database system encompassed aspects of our JMU recreation
+        center, 'UREC'. We constructed an entity-relationship diagram
+        involving a few main parts: Employees, Members, Classes, and
+        Intramurals. We then implemented this database in MySQL and created a
+        webapp using Python's Flask framework. The webapp allows for basic
+        CRUD operations on all tables, as well as advanced views, such as
+        employee pay and intramural team performance.
+        <br />
+        <br />
+      <div class="media">
+        <img src="./media/urecord.jpg" alt="Screenshot of URecord website" width="1080" />
       </div>
-    </header>
+      </p>
 
-    <main>
-      <article>
-        <h1>Projects</h1>
-        <h3>URECord (MySQL, Python/Flask/Jinja, HTML/CSS)</h3>
-        <p>
-          In a databases class, I worked in a team of 4 to develop a database
-          system. Our database system encompassed aspects of our JMU recreation
-          center, 'UREC'. We constructed an entity-relationship diagram
-          involving a few main parts: Employees, Members, Classes, and
-          Intramurals. We then implemented this database in MySQL and created a
-          webapp using Python's Flask framework. The webapp allows for basic
-          CRUD operations on all tables, as well as advanced views, such as
-          employee pay and intramural team performance.
-          <br />
-          <br />
-          <div class="media">
-          <img
-            src="./media/urecord.jpg"
-            alt="Screenshot of URecord website"
-            width="1080"
-          />
-        </div>
-        </p>
+      <h3>Terminal Spreadsheet (C++)</h3>
+      <p>
+        As part of a programming languages course, I was encouraged to develop
+        my own programming language complete with lexing and parsing. I
+        developed an expression model which polymorphically represented any
+        expression that could be a token in my given language. Each token that
+        extends an expression could then be evaluated and serialized into a
+        string. I utilized ncurses to create a terminal interface for the
+        spreadsheet program to allow for navigation and editing of the cells.
+        <br />
+        <br />
+      <div class="media">
+        <video controls autoplay width="1200">
+          <source src="./media/spreadsheet.mp4" alt="Spreadsheet example video" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      </p>
 
-        <h3>Terminal Spreadsheet (C++)</h3>
-        <p>
-          As part of a programming languages course, I was encouraged to develop
-          my own programming language complete with lexing and parsing. I
-          developed an expression model which polymorphically represented any
-          expression that could be a token in my given language. Each token that
-          extends an expression could then be evaluated and serialized into a
-          string. I utilized ncurses to create a terminal interface for the
-          spreadsheet program to allow for navigation and editing of the cells.
-          <br />
-          <br />
-          <div class="media">
-          <video controls autoplay width="1200">
-            <source
-              src="./media/spreadsheet.mp4"
-              alt="Spreadsheet example video"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        </p>
+      <h3>JMDB (HTML/CSS/JS)</h3>
+      <p>
+        JMDB, aka "James Madison Database" is a educational imitation of
+        popular movie searching sites like IMDb and Letterboxd. In CS345, our
+        group wrote this using HTML, CSS, and the p5.js javascript library,
+        the TMDB API, and utilizing scrum methodologies. I acted as Scrum
+        Master by leading "daily" (whenever the class met) scrums, assigning
+        tasks, and aligning project features to deliverables. Note the
+        extremely professional logo design. This project was prior to any formal knowledge of HTML/CSS and JavaScript,
+        so it is a little crude compared to the quality I can produce now.
+        <br />
+        <br />
+      <div class="media">
+        <img src="./media/JMDB_Home.png" alt="JMDB Home Page" width="900" />
+      </div>
+      <div>
+        <img src="./media/JMDB_Search.png" alt="JMDB Search Page" width="900" />
+      </div>
+      </p>
 
-        <h3>JMDB (HTML/CSS/JS)</h3>
-        <p>
-          JMDB, aka "James Madison Database" is a educational imitation of
-          popular movie searching sites like IMDb and Letterboxd. In CS345, our
-          group wrote this using HTML, CSS, and the p5.js javascript library,
-          the TMDB API, and utilizing scrum methodologies. I acted as Scrum
-          Master by leading "daily" (whenever the class met) scrums, assigning
-          tasks, and aligning project features to deliverables. Note the
-          extremely professional (sarcasm) logo design.
-          <br />
-          <br />
-          <div class="media">
-          <img src="./media/JMDB_Home.png" alt="JMDB Home Page" width="900" />
-          <img
-            src="./media/JMDB_Search.png"
-            alt="JMDB Search Page"
-            width="900"
-          />
-        </div>
-        </p>
+      <h3>Asteroids Clone (Java)</h3>
+      <p>
+        This was a clone of the popular game
+        <a href="https://en.wikipedia.org/wiki/Asteroids_(video_game)">
+          Asteroids</a>
+        made in Java using object oriented programming. Using OOP utilizes the
+        power of inheritance and common features between things like the ship,
+        asteroids, and the aliens. Things like collision, position updating,
+        and object deletion can be handled similarly without any regard to
+        specific attributes of a game element.
+        <br />
+        <br />
+      <div class="media">
+        <img src="./media/asteroidgif.gif" alt="Asteroid Clone Gif" />
+      </div>
+      </p>
+    </article>
+  </main>
 
-        <h3>Asteroids Clone (Java)</h3>
-        <p>
-          This was a clone of the popular game
-          <a href="https://en.wikipedia.org/wiki/Asteroids_(video_game)">
-            Asteroids</a
-          >
-          made in Java using object oriented programming. Using OOP utilizes the
-          power of inheritance and common features between things like the ship,
-          asteroids, and the aliens. Things like collision, position updating,
-          and object deletion can be handled similarly without any regard to
-          specific attributes of a game element.
-          <br />
-          <br />
-          <div class="media">
-          <img src="./media/asteroidgif.gif" alt="Asteroid Clone Gif" />
-        </div>
-        </p>
-      </article>
-    </main>
+  <footer>
+    Josh Makela <br />
+    Undergraduate Student - Mathematics and Computer Science - Virginia Beach,
+    VA <br />
+    Contact: <a href="mailto:joshmakela@yahoo.com">joshmakela@yahoo.com</a>
+  </footer>
+</body>
 
-    <footer>
-      Josh Makela <br />
-      Undergraduate Student - Mathematics and Computer Science - Virginia Beach,
-      VA <br />
-      Contact: <a href="mailto:joshmakela@yahoo.com">joshmakela@yahoo.com</a>
-    </footer>
-  </body>
 </html>
