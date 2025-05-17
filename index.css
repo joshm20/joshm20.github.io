@@ -1,27 +1,33 @@
-.pagelinks > a {
+.pagelinks>a {
   font-size: 1.2em;
   text-decoration: none;
+  text-align: center;
   color: black;
 
+
+  width: 20%;
   padding: 1em;
+  margin: 1vh 0;
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightgrey;
 }
 
-.pagelinks > a:hover {
+.pagelinks>a:hover {
   background-color: #eaeaeb;
 }
 
 .pagelinks {
   display: flex;
   width: 50vw;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 }
 
 #pagesFB {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 2vh 2vw;
 }
